@@ -2,9 +2,9 @@ import {check} from 'k6';
 import http from 'k6/http';
 
 const KONG_CLIENT = 'kong';
-const KONG_SECRET = 'ohSN0VS9Qtdi5KCLmkj52jGFU91FQJn2';
-const USER = 'maria';
-const PASS = 'maria';
+const KONG_SECRET = 'AdNWMSeYhfmRisA4osSXvJmHAqLxnl6C';
+const USER = 'joao';
+const PASS = 'joao';
 
 export const options = {
   stages: [
